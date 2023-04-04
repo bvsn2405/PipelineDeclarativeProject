@@ -3,5 +3,8 @@ agent any
   stages{
     stage('Develop'){
       steps{
-      echo "Hello World"}}}
+      echo "Hello World, Develop"}}
+  stage('Testing'){
+      steps{
+      echo "Hello World, Testing"}}}
 }
